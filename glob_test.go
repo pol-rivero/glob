@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/gobwas/glob/match"
+	"github.com/pol-rivero/glob/match"
 )
 
 const (
@@ -17,7 +17,7 @@ const (
 	pattern_plain          = "google.com"
 	regexp_plain           = `^google\.com$`
 	fixture_plain_match    = "google.com"
-	fixture_plain_mismatch = "gobwas.com"
+	fixture_plain_mismatch = "pol-rivero.com"
 
 	pattern_multiple          = "https://*.google.*"
 	regexp_multiple           = `^https:\/\/.*\.google\..*$`
@@ -29,11 +29,11 @@ const (
 	fixture_alternatives_match    = "http://yahoo.com"
 	fixture_alternatives_mismatch = "http://google.com"
 
-	pattern_alternatives_suffix                = "{https://*gobwas.com,http://exclude.gobwas.com}"
-	regexp_alternatives_suffix                 = `^(https:\/\/.*gobwas\.com|http://exclude.gobwas.com)$`
-	fixture_alternatives_suffix_first_match    = "https://safe.gobwas.com"
-	fixture_alternatives_suffix_first_mismatch = "http://safe.gobwas.com"
-	fixture_alternatives_suffix_second         = "http://exclude.gobwas.com"
+	pattern_alternatives_suffix                = "{https://*pol-rivero.com,http://exclude.pol-rivero.com}"
+	regexp_alternatives_suffix                 = `^(https:\/\/.*pol-rivero\.com|http://exclude.pol-rivero.com)$`
+	fixture_alternatives_suffix_first_match    = "https://safe.pol-rivero.com"
+	fixture_alternatives_suffix_first_mismatch = "http://safe.pol-rivero.com"
+	fixture_alternatives_suffix_second         = "http://exclude.pol-rivero.com"
 
 	pattern_prefix                 = "abc*"
 	regexp_prefix                  = `^abc.*$`

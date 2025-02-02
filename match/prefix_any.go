@@ -5,7 +5,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/gobwas/glob/util/runes"
+	"github.com/pol-rivero/glob/util/runes"
 )
 
 type PrefixAny struct {

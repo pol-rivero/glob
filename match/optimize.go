@@ -3,8 +3,8 @@ package match
 import (
 	"fmt"
 
-	"github.com/gobwas/glob/internal/debug"
-	"github.com/gobwas/glob/util/runes"
+	"github.com/pol-rivero/glob/internal/debug"
+	"github.com/pol-rivero/glob/util/runes"
 )
 
 func Optimize(m Matcher) (opt Matcher) {

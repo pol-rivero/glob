@@ -9,8 +9,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/gobwas/glob"
-	"github.com/gobwas/glob/match"
+	"github.com/pol-rivero/glob"
+	"github.com/pol-rivero/glob/match"
 )
 
 func main() {

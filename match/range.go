@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"unicode/utf8"
 
-	"github.com/gobwas/glob/internal/debug"
+	"github.com/pol-rivero/glob/internal/debug"
 )
 
 type Range struct {

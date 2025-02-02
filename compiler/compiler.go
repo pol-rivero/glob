@@ -6,9 +6,9 @@ package compiler
 import (
 	"fmt"
 
-	"github.com/gobwas/glob/internal/debug"
-	"github.com/gobwas/glob/match"
-	"github.com/gobwas/glob/syntax/ast"
+	"github.com/pol-rivero/glob/internal/debug"
+	"github.com/pol-rivero/glob/match"
+	"github.com/pol-rivero/glob/syntax/ast"
 )
 
 func Compile(tree *ast.Node, sep []rune) (match.Matcher, error) {

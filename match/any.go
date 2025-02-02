@@ -3,7 +3,7 @@ package match
 import (
 	"fmt"
 
-	"github.com/gobwas/glob/util/runes"
+	"github.com/pol-rivero/glob/util/runes"
 )
 
 type Any struct {
